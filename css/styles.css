@@ -14,13 +14,15 @@ body{
     justify-content: space-around;
 }
 .header__img{
-    height: 64px;
+    margin: 12px 0px;
+    height: 48px;
 }
 .header__title{
     margin: 4px;
     font-weight: bold;
     font-size: clamp(1.3rem ,4vw, 3rem);
     font-style: italic;
+    color: #111;
 }
 .header__nav{
     display: flex;
@@ -29,7 +31,7 @@ body{
 .header__link{
     margin: 4px;
     font-size: clamp(.9rem , 2vw, 1.1rem);
-    color: #ffb121;
+    color: #111;
 }
 .main{
     
@@ -82,11 +84,11 @@ body{
 }
 
 .footer{
-    background-color: #d68e0a;
+    background-color: #2c2c2c;
+    
 }
 .footer__license{
     font-family: 'IBM Plex Serif', serif; 
-    color: #d8d8d8;
     font-size: clamp(.8rem ,1vw, .9rem);
 }
 .work{
@@ -140,7 +142,7 @@ body{
 }
 @media(hover:hover){
     a:hover{
-        color:#d68e0a;
+        color:#fff;
     }
 }
 @media (prefers-color-scheme:dark) {
